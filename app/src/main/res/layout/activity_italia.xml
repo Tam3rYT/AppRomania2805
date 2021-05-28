@@ -34,7 +34,7 @@
                 android:text="@string/aspetti_romania"
                 android:textColor="#000"
                 android:textSize="30sp"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -84,9 +84,10 @@
                             android:textColor="#ffff" />
 
                         <ImageView
-                            android:layout_width="150dp"
+                            android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
                             android:src="@drawable/nicolae_ceausescu">
 
@@ -133,11 +134,12 @@
                             android:textColor="#ffff" />
 
                         <ImageView
-                            android:layout_width="150dp"
+                            android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/nicolae_ceausescu">
+                            android:src="@drawable/Lavoro">
 
                         </ImageView>
 
@@ -146,6 +148,7 @@
 
 
                 </androidx.cardview.widget.CardView>
+
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -184,57 +187,9 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_alignParentEnd="true"
-                            android:layout_marginEnd="0dp"
+                            android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/nicolae_ceausescu">
-
-                        </ImageView>
-
-
-                    </RelativeLayout>
-
-
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
-                    app:cardCornerRadius="15dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#607800"
-                        android:onClick="apriFisici"
-                        android:padding="10dp">
-
-                        <TextView
-                            android:id="@+id/a4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/aspetti_fisici"
-                            android:textColor="#ffff"
-                            android:textSize="30sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/a4"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="3dp"
-                            android:text="@string/aspetti_fisici_della_romania_nclicca_qui"
-                            android:textColor="#ffff" />
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:maxHeight="100dp"
-                            android:src="@drawable/nicolae_ceausescu">
+                            android:src="@drawable/Politica">
 
                         </ImageView>
 
@@ -254,7 +209,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#607800"
+                        android:background="#00D100"
                         android:onClick="apriFisici"
                         android:padding="10dp">
 
@@ -282,9 +237,109 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_alignParentEnd="true"
-                            android:layout_marginEnd="0dp"
+                            android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/nicolae_ceausescu">
+                            android:src="@drawable/Fisica">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAD02C"
+                        android:onClick="apriEconomici"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/a5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Aspetti Economici"
+                            android:textColor="#ffff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/a5"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="3dp"
+                            android:text="Aspetti Economici Della Romania,\nClicca Qui!"
+                            android:textColor="#ffff" />
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="90dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="-10dp"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/Eco">
+
+                        </ImageView>
+
+
+                    </RelativeLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#00D1D1"
+                        android:onClick="apriCulturali"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/a6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Aspetti Culturali"
+                            android:textColor="#ffff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/a6"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="3dp"
+                            android:text="Aspetti Culturali Della Romania,\nClicca Qui!"
+                            android:textColor="#ffff" />
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="-10dp"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/Cult">
 
                         </ImageView>
 
@@ -305,84 +360,36 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:background="#607800"
-                        android:onClick="apriFisici"
+                        android:onClick="apriAmbientali"
                         android:padding="10dp">
 
                         <TextView
-                            android:id="@+id/a4"
+                            android:id="@+id/a7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="10dp"
-                            android:text="@string/aspetti_fisici"
+                            android:text="Aspetti Ambientali"
                             android:textColor="#ffff"
-                            android:textSize="30sp"
+                            android:textSize="25sp"
                             android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_below="@id/a4"
+                            android:layout_below="@id/a7"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="3dp"
-                            android:text="@string/aspetti_fisici_della_romania_nclicca_qui"
+                            android:text="Aspetti Ambientali Della Romania,\nClicca Qui!"
                             android:textColor="#ffff" />
 
                         <ImageView
-                            android:layout_width="150dp"
+                            android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/nicolae_ceausescu">
-
-                        </ImageView>
-
-
-                    </RelativeLayout>
-
-
-                </androidx.cardview.widget.CardView>
-
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="20dp"
-                    app:cardCornerRadius="15dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="#607800"
-                        android:onClick="apriFisici"
-                        android:padding="10dp">
-
-                        <TextView
-                            android:id="@+id/a4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="10dp"
-                            android:text="@string/aspetti_fisici"
-                            android:textColor="#ffff"
-                            android:textSize="30sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_below="@id/a4"
-                            android:layout_marginStart="10dp"
-                            android:layout_marginTop="3dp"
-                            android:text="@string/aspetti_fisici_della_romania_nclicca_qui"
-                            android:textColor="#ffff" />
-
-                        <ImageView
-                            android:layout_width="150dp"
-                            android:layout_height="100dp"
-                            android:layout_alignParentEnd="true"
-                            android:maxHeight="100dp"
-                            android:src="@drawable/nicolae_ceausescu">
+                            android:src="@drawable/Amb">
 
                         </ImageView>
 

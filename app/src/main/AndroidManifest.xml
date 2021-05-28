@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelRomania">
-        <activity android:name=".Inglese"></activity>
+        <activity android:name=".ING.AspettiAmbientaliING"></activity>
+        <activity android:name=".ING.AspettiCulturaliING" />
+        <activity android:name=".ING.AspettiEconomiciING" />
+        <activity android:name=".ING.AspettiFisiciING" />
+        <activity android:name=".ING.AspettiPoliticiING" />
+        <activity android:name=".ING.AspettiSocialiING" />
+        <activity android:name=".ING.AspettiStoriciING" />
+        <activity android:name=".ING.Inglese" />
         <activity android:name=".ITA.AspettiAmbientali" />
         <activity android:name=".ITA.AspettiCulturali" />
         <activity android:name=".ITA.AspettiEconomici" />
