@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ITA.AspettiCulturali">
 
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/culturaliPdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingClass">
+
+    </com.github.barteksc.pdfviewer.PDFView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
