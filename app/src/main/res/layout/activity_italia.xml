@@ -139,7 +139,7 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/Lavoro">
+                            android:src="@drawable/lavoro">
 
                         </ImageView>
 
@@ -189,7 +189,7 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/Politica">
+                            android:src="@drawable/politica">
 
                         </ImageView>
 
@@ -239,7 +239,7 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/Fisica">
+                            android:src="@drawable/fisica">
 
                         </ImageView>
 
@@ -289,7 +289,7 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/Eco">
+                            android:src="@drawable/eco">
 
                         </ImageView>
 
@@ -339,7 +339,7 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/Cult">
+                            android:src="@drawable/cult">
 
                         </ImageView>
 
@@ -389,7 +389,7 @@
                             android:layout_alignParentEnd="true"
                             android:layout_marginEnd="-10dp"
                             android:maxHeight="100dp"
-                            android:src="@drawable/Amb">
+                            android:src="@drawable/amb">
 
                         </ImageView>
 
