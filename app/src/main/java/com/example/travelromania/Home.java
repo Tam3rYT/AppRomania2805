@@ -33,4 +33,60 @@ public class Home extends AppCompatActivity {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void SegretoTamer(View v) {
+        Intent i = new Intent(this,ProducedByTamer.class);
+                startActivity(i);
+    }
 }

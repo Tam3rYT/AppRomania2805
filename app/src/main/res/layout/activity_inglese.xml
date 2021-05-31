@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/allerta_stencil"
-                android:text="@string/aspetti_romania"
+                android:text="Aspects of Romania"
                 android:textColor="#000"
                 android:textSize="30sp"
                 android:textStyle="normal" />
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/allerta_stencil"
-                android:text="@string/Aspetti"
+                android:text="These are the various Aspects of Romania"
                 android:textColor="#272727"
                 android:textStyle="bold" />
 

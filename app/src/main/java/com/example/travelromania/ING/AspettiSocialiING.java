@@ -3,7 +3,7 @@ package com.example.travelromania.ING;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+import com.github.barteksc.pdfviewer.PDFView;
 import com.example.travelromania.R;
 
 public class AspettiSocialiING extends AppCompatActivity {
@@ -12,5 +12,7 @@ public class AspettiSocialiING extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aspetti_sociali_ing);
+        PDFView pdfView = findViewById(R.id.SocialiING_pdf);
+        pdfView.fromAsset("SocialiING.pdf").load();
     }
 }

@@ -31,6 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/allerta_stencil"
+                android:onClick="SegretoTamer"
                 android:text="@string/aspetti_romania"
                 android:textColor="#000"
                 android:textSize="30sp"
@@ -80,7 +81,7 @@
                             android:layout_below="@id/a1"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="3dp"
-                            android:text="@string/aspetti_storici_della_romania_nclicca_qui"
+                            android:text="Aspetti Storici Della Romania,\nClicca Qui!"
                             android:textColor="#ffff" />
 
                         <ImageView
@@ -130,7 +131,7 @@
                             android:layout_below="@id/a2"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="3dp"
-                            android:text="@string/aspetti_sociali_della_romania_nclicca_qui"
+                            android:text="Aspetti Sociali Della Romania,\nClicca Qui!"
                             android:textColor="#ffff" />
 
                         <ImageView
@@ -180,7 +181,7 @@
                             android:layout_below="@id/a3"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="3dp"
-                            android:text="@string/aspetti_politici_della_romania_nclicca_qui"
+                            android:text="Aspetti Politici Della Romania,\nClicca Qui!"
                             android:textColor="#ffff" />
 
                         <ImageView
@@ -230,7 +231,7 @@
                             android:layout_below="@id/a4"
                             android:layout_marginStart="10dp"
                             android:layout_marginTop="3dp"
-                            android:text="@string/aspetti_fisici_della_romania_nclicca_qui"
+                            android:text="Aspetti Fisici Della Romania,\nClicca Qui!"
                             android:textColor="#ffff" />
 
                         <ImageView
