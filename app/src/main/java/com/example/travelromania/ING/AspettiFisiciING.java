@@ -12,7 +12,7 @@ public class AspettiFisiciING extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aspetti_fisici_ing);
-        PDFView pdfView = findViewById(R.id.FisicalING_pdf);
-        pdfView.fromAsset("FisicalING.pdf").load();
+        PDFView pdfView = findViewById(R.id.fisiciIng);
+        pdfView.fromAsset("FisicaING.pdf").load();
     }
 }

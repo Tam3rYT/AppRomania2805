@@ -13,6 +13,6 @@ public class AspettiPoliticiING extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_aspetti_politici_ing);
         PDFView pdfView = findViewById(R.id.PoliticalING_pdf);
-        pdfView.fromAsset("PoliticalING.pdf").load();
+        pdfView.fromAsset("PoliticaING.pdf").load();
     }
 }
