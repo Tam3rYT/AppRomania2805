@@ -4,20 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ITA.AspettiStorici"
-    >
-
+    tools:context=".ING.AspettiPoliticiING">
     <com.github.barteksc.pdfviewer.PDFView
-        android:id="@+id/storiciPdf"
+        android:id="@+id/PoliticalING.pdf"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
     </com.github.barteksc.pdfviewer.PDFView>
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
